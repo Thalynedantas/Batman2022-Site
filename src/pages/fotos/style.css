@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap');
+
+
+.box-container {
+    background-image: url('../../assets/imhh.jpg');
+}
+
+.discrition2 {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#sinopse2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 180px;
+    padding: 100px;
+}
+
+.cena1 {
+    background-image: url('https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg');
+}
+
+.cena2 {
+    background-image: url('https://helios-i.mashable.com/imagery/articles/02WteZsvAJXJFKIbkJ312xB/hero-image.fill.size_1200x900.v1646668872.jpg');
+}
+
+.cena3 {
+    background-image: url('https://sobresagas.com.br/wp-content/uploads/2022/02/the-batman-cena.jpg');
+}
+
+.cena4 {
+    background-image: url('https://www.slashfilm.com/img/gallery/the-15-best-scenes-in-the-batman-ranked/intro-1646749141.jpg');
+}
+
+.cena5 {
+    background-image: url('../../assets/An-image-of-Alfred-and-Bruce-talking-in-The-Batman-legadodadc.webp');
+}
+
+.cena6 {
+    background-image: url('../../assets/Batman-flare-in-The-Batman-legadodadc.webp');
+}
+
+
+.cena7 {
+    background-image: url('../../assets/batman2.jpeg');
+}
+
+.cena8 {
+    background-image: url('../../assets/Catwoman-aims-a-gun-in-The-Batman-legadodadc.webp');
+}
+
+.cena9 {
+    background-image: url('../../assets/Robert-Pattinson-and-Jeffrey-Wright-in-The-Batman-legadodadc.webp');
+}
+
+.cena10 {
+    background-image: url('../../assets/Robert-Pattinson-as-Batman-and-Paul-Dano-as-Joker-in-Arkham-during-The-Batman-legadodadc.webp');
+}
+
+.cena11 {
+    background-image: url('../../assets/The-Batman-and-Gil-Colson-at-funeral-legadodadc.webp');
+}
+
+.cena12 {
+    background-image: url('../../assets/The-Batman-Batmobile-chase-silhouette-wide-legadodadc.webp');
+}
+
+.cena13 {
+    background-image: url('../../assets/The-Batman-Batmobile-chase-silhouette-wide-legadodadc.webp');
+}
+
+.cenas-content {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    row-gap: 100px;
+    column-gap: 100px;
+    margin-left: 200px;
+}
+
+.img {
+    width: 100%;
+    height: 60px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 100px;
+    padding: 30% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 2px solid #d21617;
+
+}
+.img:hover {
+    transform: scale(1.03);
+}
+
+@media(max-width: 768px){
+
+
+    #sinopse2 {
+        display: block;
+        padding: 15px 40px 15px 5px;
+        margin-left: 100px;
+    }
+
+    span .i {
+        padding: 10px 50px 5px 10px;
+        margin-right: 100px;
+    }
+
+    .cenas-content {
+        width: 60%;
+        display: block;
+        padding:  10px 40px 15px 5px;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+
+}
